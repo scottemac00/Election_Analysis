@@ -11,22 +11,21 @@ A Colorado Board of Elections employee gave me the following tasks to complete t
     6. Tabulate the voter turnout for each county.
     7. Determine the percentage of votes from each county out of the total count.
     8. Identify the county with the highest voter turnout.
-
+- The data set was analyzed and the output included in this repository, in the Analysis folder. Supporting files are located in the Resources folder.
 ### Resources
-Data was sourced from the following file and with the following software:
+Data was sourced from the following file and audited with the following software:
 - election_results.csv retrieved from UCF Canvas on 10/21/2022
 - Software: Python 3.7, Visual Studio Code 1.72.2 
 
 ## Election Audit Results
 Analysis of the election results shows that:
 - There were 369,711 total votes cast. 
-- The code that enabled this output begins with setting a variable to track total votes, then creating a **for** loop to iterate through the election_results.csv file and track the amount of votes cast and tallying the votes for the appropriate candidate.![For Loop](https://github.com/scottemac00/Election_Analysis/blob/3999b1b03f407609f25dfc2281638f9f346d2778/Resources/Candidate%20Vote%20Tally%20Loop.png)  
-- This was verified by opening the spreadsheet and correlating the last cell used![election_results.csv last cell](https://github.com/scottemac00/Election_Analysis/blob/3999b1b03f407609f25dfc2281638f9f346d2778/Resources/Total%20Cell%20Count.png), then subtracting one. 
+- The code that enabled this output begins with setting a variable to track total votes, then creating a **for** loop to iterate through the election_results.csv file and track the amount of votes cast and tallying the votes for the appropriate candidate.
+![For Loop](https://github.com/scottemac00/Election_Analysis/blob/3999b1b03f407609f25dfc2281638f9f346d2778/Resources/Candidate%20Vote%20Tally%20Loop.png)  
+- This was verified by opening the spreadsheet and correlating the last cell used![election_results.csv last cell](https://github.com/scottemac00/Election_Analysis/blob/3999b1b03f407609f25dfc2281638f9f346d2778/Resources/Total%20Cell%20Count.png) then subtracting one. 
 ### Results by County
-- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct. <INSERT IMAGE OF COUNTY OUTPUT>
-- Which county had the largest number of votes?
-- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.<INSERT IMAGE OF CANDIDATE OUTPUT>
-- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+- The following image displays the script's output with votes by county:
+### ![](https://github.com/scottemac00/Election_Analysis/blob/77e4ba4937e886462a881fb043f5b988f24d13c0/Resources/County%20Tallies.png)
 
 ### Results by Candidate
 - As noted in **bold** below, Diana DeGette won the election.
