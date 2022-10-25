@@ -20,7 +20,8 @@ Data was sourced from the following file and with the following software:
 ## Election Audit Results
 Analysis of the election results shows that:
 - There were 369,711 total votes cast. 
-    --The code that enabled this output begins with setting a variable to track total votes, then creating a **for** loop to iterate through the election_results.csv file and track the amount of votes cast and tallying the votes for the appropriate candidate.  This was verified by opening the spreadsheet and correlating the last cell used, then subtracting one. ![](https://url for cell count photo
+- The code that enabled this output begins with setting a variable to track total votes, then creating a **for** loop to iterate through the election_results.csv file and track the amount of votes cast and tallying the votes for the appropriate candidate.![For Loop](https://github.com/scottemac00/Election_Analysis/blob/3999b1b03f407609f25dfc2281638f9f346d2778/Resources/Candidate%20Vote%20Tally%20Loop.png)  
+- This was verified by opening the spreadsheet and correlating the last cell used![election_results.csv last cell](https://github.com/scottemac00/Election_Analysis/blob/3999b1b03f407609f25dfc2281638f9f346d2778/Resources/Total%20Cell%20Count.png), then subtracting one. 
 ### Results by County
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct. <INSERT IMAGE OF COUNTY OUTPUT>
 - Which county had the largest number of votes?
